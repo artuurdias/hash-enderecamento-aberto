@@ -1,0 +1,10 @@
+C:\Users\luiza\Downloads\Hash\bin\Debug\Hash.exe.config
+C:\Users\luiza\Downloads\Hash\bin\Debug\Hash.exe
+C:\Users\luiza\Downloads\Hash\bin\Debug\Hash.pdb
+C:\Users\luiza\Downloads\Hash\obj\Debug\Hash.csproj.AssemblyReference.cache
+C:\Users\luiza\Downloads\Hash\obj\Debug\Hash.Properties.Resources.resources
+C:\Users\luiza\Downloads\Hash\obj\Debug\Hash.csproj.GenerateResource.cache
+C:\Users\luiza\Downloads\Hash\obj\Debug\Hash.csproj.CoreCompileInputs.cache
+C:\Users\luiza\Downloads\Hash\obj\Debug\Hash.exe
+C:\Users\luiza\Downloads\Hash\obj\Debug\Hash.pdb
+C:\Users\luiza\Downloads\Hash\obj\Debug\Hash.Form1.resources
