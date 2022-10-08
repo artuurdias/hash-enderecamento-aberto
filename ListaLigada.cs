@@ -7,33 +7,33 @@ class ListaLigada<X>
     class No
     {
         private No proximo;
-        private X dados;
+        private X dado;
         private int pos;
 
-        public No(No prox, X dado, int _pos)
+        public No(No proximo, X dado, int pos)
         {
-            proximo = prox;
-            dados = dado;
-            pos = _pos;
+            this.proximo = proximo;
+            this.dado = dado;
+            this.pos = pos;
         }
-        public No(int _pos)
+        public No(int pos)
         {
-            pos = _pos;
+            this.pos = pos;
         }
 
-        public void SetDados(X dado)
+        public void SetDado(X dado)
         {
-            dados = dado;
+            this.dado = dado;
         }
 
         public X GetDados()
         {
-            return dados;
+            return dado;
         }
 
-        public void SetProximo(No prox)
+        public void SetProximo(No proximo)
         {
-            proximo = prox;
+            this.proximo = proximo;
         }
 
         public No GetProximo()
@@ -47,9 +47,9 @@ class ListaLigada<X>
     int tamanho;
     int quantos;
 
-    public ListaLigada(int _tamanho)
+    public ListaLigada(int tamanho)
     {
-        tamanho = _tamanho;
+        this.tamanho = tamanho;
         lista = new No[tamanho];
 
         for(int i = 0; i < tamanho; i++)
@@ -72,13 +72,13 @@ class ListaLigada<X>
             throw new Exception("Dado inválido!");
         }
 
-        lista[pos].SetDados(dado);
+        lista[pos].SetDado(dado);
         quantos++;
     }
 
     public void Deletar(X dado, int pos)
     {
-        lista[pos].SetDados(dado);
+        lista[pos].SetDado(dado);
         quantos--;
     }
 

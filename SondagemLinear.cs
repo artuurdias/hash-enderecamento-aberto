@@ -8,9 +8,9 @@ class SondagemLinear
     ListaLigada<Aluno> dados;
     public int Tamanho { get => tamanho; }
 
-    public SondagemLinear (int _tamanho)
+    public SondagemLinear (int tamanho)
     {
-        tamanho = _tamanho;
+        this.tamanho = tamanho;
         dados = new ListaLigada<Aluno>(tamanho);
     }
 

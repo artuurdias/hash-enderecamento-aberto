@@ -7,9 +7,9 @@ class SondagemQuadratica
     ListaLigada<Aluno> dados;
     public int Tamanho { get => tamanho; }
 
-    public SondagemQuadratica(int _tamanho)
+    public SondagemQuadratica(int tamanho)
     {
-        tamanho = _tamanho;
+        this.tamanho = tamanho;
         dados = new ListaLigada<Aluno>(tamanho);
     }
 

@@ -1,15 +1,16 @@
 ﻿using System;
 using System.Windows.Forms;
+
 class HashingDuplo
 {
     private int tamanho;
     ListaLigada<Aluno> dados;
     public int Tamanho { get => tamanho; }
 
-    public HashingDuplo(int _tamanho)
+    public HashingDuplo(int tamanho)
     {
-        tamanho = _tamanho;
-        dados = new ListaLigada<Aluno>(tamanho); 
+        this.tamanho = tamanho;
+        dados = new ListaLigada<Aluno>(tamanho);
     }
 
     public void Adicionar(Aluno aluno)
